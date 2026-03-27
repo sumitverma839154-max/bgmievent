@@ -1,0 +1,119 @@
+.header-twitter {
+  background: #fff;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  position: relative;
+}
+.header-twitter img {
+  width: 60;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.content-box-twitter {
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2px;
+  display: block;
+}
+.content-box-twitter span {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: arial, sans-serif;
+  text-align: left;
+}
+.content-box-twitter p {
+  color: #fa3e3e;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  text-align: center;
+  display: none;
+}
+.content-box-twitter label {
+  color: #000;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  text-align: left;
+}
+.content-box-twitter label a {
+  color: #1da1f2;
+}
+.content-box-twitter button {
+  background: #1da1f2;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 14px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: arial, sans-serif;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  letter-spacing: 1;
+}
+.form-group-twitter {
+  width: 100%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 0;
+  position: relative;
+  display: block;
+}
+.form-group-twitter input {
+  background: 0 0;
+  width: 100%;
+  padding: 16px;
+  padding-left: 9px;
+  color: #000;
+  font-size: 17px;
+  font-family: arial, sans-serif;
+  border: 1px solid #657786;
+  border-radius: 3.5px;
+  display: block;
+}
+.form-group-twitter label {
+  color: #6e767d;
+  font-size: 17px;
+  font-weight: 100;
+  font-family: arial, sans-serif;
+  text-align: right;
+  top: 0;
+  left: 10.5px;
+  position: absolute;
+  pointer-events: none;
+  transform: translateY(26px);
+  transition: all 0.2s ease-in-out;
+}
+.form-group-twitter input:valid,
+.form-group-twitter input:focus {
+  border: 2px solid #1da1f2;
+  outline: none;
+}
+.form-group-twitter input:valid + label,
+.form-group-twitter input:focus + label {
+  color: #1da1f2;
+  font-size: 12px;
+  top: 15px;
+  bottom: 20px;
+  transform: translateY(0);
+}
+.form-group-sohi {
+  width: 50px;
+  height: 73%;
+  margin-left: 88%;
+  position: absolute;
+  z-index: 9999999;
+  cursor: pointer;
+}
+.form-group-sohi img {
+  width: 25px;
+  margin-top: 14px;
+}
